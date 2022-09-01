@@ -1,0 +1,22 @@
+2022-09-01 14:09:36.914 BST
+2022-09-01T13:09:36.913382Z 67 [Note] [MY-010914] [Server] Aborted connection 67 to db: 'files_db' user: 'admin' host: 'cloudsqlproxy~107.178.237.23' (Got an error reading communication packets).
+
+{
+insertId: "s=daa51532071f44ea9437c4b67c1ad4f6;i=aaad;b=d13f8f56f1894b259c3c1fb8aa027bea;m=58b1dabff;t=5e79d534bd78c;x=aa152d0fc8e71baf-0-0@a1"
+labels: {
+LOG_BUCKET_NUM: "44"
+}
+logName: "projects/workflows-proj-20220823/logs/cloudsql.googleapis.com%2Fmysql.err"
+receiveTimestamp: "2022-09-01T13:10:15.600743800Z"
+resource: {
+labels: {
+database_id: "workflows-proj-20220823:metadata-db"
+project_id: "workflows-proj-20220823"
+region: "us-central"
+}
+type: "cloudsql_database"
+}
+severity: "INFO"
+textPayload: "2022-09-01T13:09:36.913382Z 67 [Note] [MY-010914] [Server] Aborted connection 67 to db: 'files_db' user: 'admin' host: 'cloudsqlproxy~107.178.237.23' (Got an error reading communication packets)."
+timestamp: "2022-09-01T13:09:36.914316Z"
+}
